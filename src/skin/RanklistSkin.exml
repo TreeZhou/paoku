@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RanklistSkin" width="470" height="120" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Label id="nicheng" text="" x="164.99" anchorOffsetX="0" width="123.33" anchorOffsetY="0"
+	         height="70.33" textColor="0x000000" fontFamily="Microsoft YaHei" size="24" textAlign="center"
+	          verticalAlign="middle" verticalCenter="0" maxChars="8"/>
+	<e:Label id="paim" text="" x="8" anchorOffsetY="0" height="116" anchorOffsetX="0" width="62" verticalAlign="middle" textAlign="center" verticalCenter="0" size="24" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:Image id="touxiang" source="g6_img3_png" x="63" y="11"/>
+	<e:Image source="g6_img2_png" y="114" horizontalCenter="0"/>
+	<e:Label id="chengji" text="" x="319" anchorOffsetY="0" height="105.33" anchorOffsetX="0" width="148.67" verticalAlign="middle" textAlign="center" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+	<e:Image x="0" y="0" source="g6_bg_jpg"/>
+	<e:Image source="g6_img1_png" x="155" y="251" />
+	<e:Image source="g6_text1_png" x="155" y="468" />
+	<e:Image id="dier" source="g6_img3_png" x="163" y="273" />
+	<e:Image id="diyi" source="g6_img3_png" x="325" y="265" />
+	<e:Image id="disan" source="g6_img3_png" x="482" y="272" />
+	<e:Image source="g6_img3_png" x="214" y="538"  visible="false"/>
+	<e:Image id="angin" source="g6_btn1_png" x="35" y="1081" />
+	<e:Image id="duihuan" source="g6_btn2_png" x="478" y="1081" />
+	<e:Image id="zhuli" source="g6_btn3_png" x="284" y="1102" />
+	<e:Image source="g6_img4_png" x="638" y="514" visible="false" />
+	<e:Image source="g6_img5_png" x="636" y="511" visible="false" />
+	<e:Image source="g6_img2_png" x="141" y="651"  visible="false"/>
+	<e:Scroller id="scroller" width="476" height="570" y="517" anchorOffsetX="0" x="132.66" anchorOffsetY="0" bounces="false">
+		<e:Group id="group" width="476" height="570"/>
+	</e:Scroller>
+	<e:VSlider id="slider" width="20" height="565" x="631" y="516"  touchEnabled="true"/>
+	<e:Label id="ername" text="" x="162" y="391" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>
+	<e:Label id="yiname" text="" x="325" y="391" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>	
+	<e:Label id="sanname" text="" x="482" y="391" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>
+		<e:Label id="erfen" text="" x="162" y="437.67" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>
+	<e:Label id="yifen" text="" x="324" y="437.66" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>	
+	<e:Label id="sanfen" text="" x="482" y="436.33" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="100" verticalAlign="middle" textAlign="center" textColor="0x000000" anchorOffsetY="0" height="22"/>
+	<e:Image source="g6_text2_png" x="172" y="351"/>
+	<e:Image id="ewmbtn" source="g6_btn5_png" x="22" y="36.96"/>
+	<e:Image id="shouzhi" source="g6_img6_png" x="117.33" y="89" touchEnabled="false"/>
+</e:Skin>

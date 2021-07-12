@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shareSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+	<e:Rect width="750" height="1334" x="0" y="0" fillAlpha="0.7" />
+	<e:Image source="g5_img_png" x="137" y="94" />
+</e:Skin>

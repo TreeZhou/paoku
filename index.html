@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>夏日防护/晒，就是蕾珂美</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<script>
+		//是否需要授权
+		window.isAuth = true;
+		//资源版本控制
+		window.sourceVer = "1.0";
+		window.appid = "wx7c3ed56f7f792d84";
+		//接口地址
+		window.Url = "http://game.flyh5.cn/game/wx75967690c8ef0c50/mar_lkm";
+		//前端地址
+		window.WebUrl = window.location.href.split("/main.html")[0];
+		//入口地址
+		window.ShareUrl = "http://game.flyh5.cn/game/twolevel_autho/weixinnew.php?auth_appid=wx75967690c8ef0c50&catalog=mar_lkm/";
+		window.Title = "快来！帮我助跑！防晒礼品免费领，超值惊喜送闺蜜！！";
+		window.Content = "超燃耶！土豪送礼+防护喷雾免费领！";
+		//下线年
+		window.year = 2018;
+		//下线月
+		window.month = 12;
+		//下线日
+		window.day = 1;
+		window.Timer = (new Date(window.year, window.month - 1, window.day, 0, 0, 0)).getTime();
+		//手Q分享
+		document.getElementsByTagName("head")[0].innerHTML = document.getElementsByTagName("head")[0].innerHTML +
+			'<meta itemprop="name" content="' + window.Title + '">' +
+			'<meta name="description" itemprop="description" content="' + window.Content + '">' +
+			'<meta itemprop="image" content="' + window.WebUrl + '/icon.jpg' + '">';
+			//劝说代码
+			// window.addEventListener("popstate", function(e) { 
+			// window.pushHistory();
+			// return alert("我知道你还不想离开~");
+			// }, false); 
+			// window.pushHistory = function () { 
+			// var state = { title: "title", url: "#" }; 
+			// window.history.pushState(state, "title", "#");  
+			// }
+			// window.pushHistory();
+	</script>
+<style>
+		html,
+		body {
+			-ms-touch-action: none;
+			background: #ffffff;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="60" data-content-width="750"
+data-content-height="1334" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false" data-show-log="false"
+data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+<img id="load" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/load/ld_bg_jpg.jpg" alt="" style="width: 100%;position: relative;height: 100%;" />
+</div>
+<img id="ewm" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/erwema/g11_2wm.png" style="position:absolute;display:none;opacity:0" />
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+<!--modules_files_start-->
+<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+<script egret="lib" src="libs/modules/experimental/experimental.js" src-release="libs/modules/experimental/experimental.min.js"></script>
+<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+<script egret="lib" src="promise/promise.js" src-release="promise/promise.min.js"></script>
+<script egret="lib" src="third/md5/md5.js" src-release="third/md5/md5.min.js"></script>
+<script egret="lib" src="third/neoges_lib/neoges_lib.js" src-release="third/neoges_lib/neoges_lib.min.js"></script>
+<script egret="lib" src="third/ur/ur.js" src-release="third/ur/ur.min.js"></script>
+<!--modules_files_end-->
+
+<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+<!--other_libs_files_start-->
+<!--other_libs_files_end-->
+
+<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+<!--game_files_start-->
+<script egret="game" src="bin-debug/base/CBaseClass.js"></script>
+<script egret="game" src="bin-debug/base/SingleBaseClass.js"></script>
+<script egret="game" src="bin-debug/Manager/EventManager.js"></script>
+<script egret="game" src="bin-debug/Bgmusic.js"></script>
+<script egret="game" src="bin-debug/changpin.js"></script>
+<script egret="game" src="bin-debug/DecodeStr.js"></script>
+<script egret="game" src="bin-debug/dianzan.js"></script>
+<script egret="game" src="bin-debug/djs.js"></script>
+<script egret="game" src="bin-debug/erwei.js"></script>
+<script egret="game" src="bin-debug/Game.js"></script>
+<script egret="game" src="bin-debug/Gameover.js"></script>
+<script egret="game" src="bin-debug/GesturePanel.js"></script>
+<script egret="game" src="bin-debug/Index.js"></script>
+<script egret="game" src="bin-debug/Infos.js"></script>
+<script egret="game" src="bin-debug/LoadingUI.js"></script>
+<script egret="game" src="bin-debug/Main.js"></script>
+<script egret="game" src="bin-debug/zhuliRanklist.js"></script>
+<script egret="game" src="bin-debug/Manager/Mode.js"></script>
+<script egret="game" src="bin-debug/Manager/PageManager.js"></script>
+<script egret="game" src="bin-debug/Manager/PopUpManager.js"></script>
+<script egret="game" src="bin-debug/Ojoin.js"></script>
+<script egret="game" src="bin-debug/Rank.js"></script>
+<script egret="game" src="bin-debug/Ranklist.js"></script>
+<script egret="game" src="bin-debug/Rule.js"></script>
+<script egret="game" src="bin-debug/share.js"></script>
+<script egret="game" src="bin-debug/Utils/AlignUtil.js"></script>
+<script egret="game" src="bin-debug/Utils/AssetAdapter.js"></script>
+<script egret="game" src="bin-debug/Utils/BitmapMovie.js"></script>
+<script egret="game" src="bin-debug/Utils/Coin.js"></script>
+<script egret="game" src="bin-debug/Utils/CollisionUtils.js"></script>
+<script egret="game" src="bin-debug/base/CBaseClass2.js"></script>
+<script egret="game" src="bin-debug/Utils/CoolingQueueMcForCircle.js"></script>
+<script egret="game" src="bin-debug/Utils/CountUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/DateUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/DeviceUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/Drag.js"></script>
+<script egret="game" src="bin-debug/Utils/Effects.js"></script>
+<script egret="game" src="bin-debug/Utils/Ewm.js"></script>
+<script egret="game" src="bin-debug/Utils/loadUtil.js"></script>
+<script egret="game" src="bin-debug/Utils/LocationProperty.js"></script>
+<script egret="game" src="bin-debug/Utils/MathUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/MessageTool.js"></script>
+<script egret="game" src="bin-debug/Utils/ModalPop.js"></script>
+<script egret="game" src="bin-debug/Utils/NetConfig.js"></script>
+<script egret="game" src="bin-debug/Utils/ObjectUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/ParabolaUtil.js"></script>
+<script egret="game" src="bin-debug/Utils/RandomUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/RegUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/requestTips.js"></script>
+<script egret="game" src="bin-debug/Utils/TextParticle.js"></script>
+<script egret="game" src="bin-debug/Utils/ThemeAdapter.js"></script>
+<script egret="game" src="bin-debug/Utils/TickUtils.js"></script>
+<script egret="game" src="bin-debug/Utils/Tool.js"></script>
+<script egret="game" src="bin-debug/Utils/TouchStyleEffects.js"></script>
+<script egret="game" src="bin-debug/Utils/Vj/VirtualJoystickGesture.js"></script>
+<script egret="game" src="bin-debug/Utils/Vj/VirtualJoystickView.js"></script>
+<script egret="game" src="bin-debug/Utils/WebSocketTool.js"></script>
+<script egret="game" src="bin-debug/zhiyin.js"></script>
+<script egret="game" src="bin-debug/zhuliRank.js"></script>
+<script egret="game" src="bin-debug/Utils/CookieUtils.js"></script>
+<!--game_files_end-->
+
+<audio id="bgmusic" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/music.mp3" loop="loop"></audio>
+<audio id="djs" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/djs.mp3"></audio>
+<audio id="jia" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/default/jiafen.mp3"></audio>
+<audio id="jian" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/default/jianfen.mp3"></audio>
+<audio id="end1" src="http://img.flyh5.cn/game/zzy_game/180301_LKM_run/resource/assets/default/gongxi.mp3"></audio>
+
+<script src="./resource/dist/lrz.bundle.js"></script>
+<script src="./resource/common.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<!--如有授权则要屏蔽-->
+<!--<script src="http://game.flyh5.cn/game/twolevel_autho/share.php?auth_appid=wx7c3ed56f7f792d84&type=js&isonlyopenid=true"></script>-->
+<script src="./resource/share.js"></script>
+<script src="./resource/wxmonment.min.js"></script>
+<script>
+		$(document).ready(function () {
+			var ot = new WxMoment.OrientationTip();
+		})
+		new WxMoment.OrientationTip();
+</script>
+<script src="./resource/jquery-3.2.1.min.js"></script>
+<script>
+		$(function () {
+			/**
+			 * {
+			 * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+			 * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+			 * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+			 * "retina": //是否基于devicePixelRatio缩放画布
+			 * }
+			 **/
+			egret.runEgret({ renderMode: "canvas", audioType: 0, antialias: false, retina: false });
+		})
+		window.onload = function () {
+			doresige();
+		}
+</script>
+<script>
+		document.addEventListener("WeixinJSBridgeReady", function () {
+			document.getElementById('bgmusic').play();
+			window['audioStatus'] = "paused";
+			document.getElementById('bgmusic').addEventListener("play", function () { window['audioStatus'] = "playing"; });
+			document.getElementById('djs').play();
+			document.getElementById('djs').pause();
+			document.getElementById('jia').play();
+			document.getElementById('jia').pause();
+			document.getElementById('jian').play();
+			document.getElementById('jian').pause();
+			document.getElementById('end1').play();
+			document.getElementById('end1').pause();
+		});
+</script>
+<script>
+		var _mtac = { "performanceMonitor": 1, "senseQuery": 1 };
+		(function () {
+			var mta = document.createElement("script");
+			mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.4";
+			mta.setAttribute("name", "MTAH5");
+			mta.setAttribute("sid", "500592797");
+			mta.setAttribute("cid", "500592798");
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(mta, s);
+		})();
+</script>
+</body>
+
+</html>

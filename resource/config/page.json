@@ -1,0 +1,11 @@
+{
+"data":[
+{"source":"loadingBG_jpg","touchEnabled":false,"anchorCenter":false,
+"init":{"x":0,"y":0,"alpha":1},"isMove":false,"wait":0,"isloop":false,
+"move":{"x":0,"y":0,"rotation":0,"alpha":1},"time":400,"ease":null},
+
+{"source":"loading3_png","touchEnabled":true,"anchorCenter":false,
+"wait":500,"isloop":false,"init":{"scaleX":0,"scaleY":0,"alpha":1},
+"isMove":true,"move":{"scaleX":1,"scaleY":1,"alpha":1},"time":500,"ease":"egret.Ease.bounceInOut"}
+    ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+	<e:Rect width="750" height="1334" x="0" y="0" fillAlpha="0.7"/>
+        <e:Image source="g1_bg_png" x="70" y="40" />
+	<e:Scroller id="scroller" width="498" height="744" y="255" anchorOffsetX="0" x="116" anchorOffsetY="0" bounces="false">
+		<e:Group id="group">
+			<e:Image id="sofa" source="g1_text_png" y="27" scaleX="1" scaleY="1" x="19" width="460" height="1463"/>
+		</e:Group>
+	</e:Scroller>
+	<e:VSlider id="slider" width="20" height="744" x="619" y="255"/>
+        <e:Image id="close" x="320" y="1089"  source="g1_btn_png"/>
+        <e:Image source="g1_img1_png" x="622" y="254"  visible="false"/>
+        <e:Image source="g1_img2_png" x="620" y="251"  visible="false"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zhuliRankSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Image x="0" y="0"  source="g7_bg_jpg"/>
+	<e:Image id="close" source="g7_btn_png" x="208" y="1061" />
+	<e:Scroller id="scroller" width="442" height="608" x="153" y="305" anchorOffsetX="0" anchorOffsetY="0" bounces="false">
+		<e:Group id="group" width="442" height="608"/>
+	</e:Scroller>
+		<e:VSlider id="slider" width="20" height="608" x="631" y="303" />
+</e:Skin>

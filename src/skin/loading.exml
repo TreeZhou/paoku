@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="loadingSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+        <e:Image source="ld_bg_jpg_jpg" x="0" y="0" />
+        <e:Image source="ld_img1_png" x="108" y="493" />
+        <e:Image id="loadz" source="ld_img2_png" x="-411" y="493" />
+        <e:Image id="maskload" source="ld_img2_png" x="112" y="493" />
+	<e:Label id="tex" text="" y="563.48" anchorOffsetY="0" height="60.3" anchorOffsetX="0" width="257.34" verticalAlign="middle" textAlign="center" textColor="0x000000" fontFamily="Microsoft YaHei" horizontalCenter="0" bold="true"/>
+</e:Skin>

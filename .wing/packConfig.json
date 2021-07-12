@@ -1,0 +1,10 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "/Users/os/svn/egret/moban/news/resource/default.res.json",
+    "packGroups": {
+        "preload": true,
+        "loading": true
+    }
+}

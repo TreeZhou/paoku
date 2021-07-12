@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+        <e:Image source="index_bg_jpg_jpg" x="0" y="0" />
+	<e:Image id="dh" source="index_title_png" y="336" horizontalCenter="0.5" anchorOffsetX="374" anchorOffsetY="206"/>
+	<e:Image id="rule" source="index_btn3_png" x="132" y="202" anchorOffsetX="95" anchorOffsetY="23"/>
+	<e:Image source="index_img1_png" x="112" y="368"/>
+        <e:Image id="btn1" source="index_btn1_png" x="209" y="941" />
+        <e:Image id="btn2" source="index_btn2_png" x="209" y="1081" />
+</e:Skin>

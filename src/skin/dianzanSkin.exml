@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dianzanSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Rect width="750" height="1334" x="0" y="0" fillAlpha="0.7" />
+	<e:Image source="g10_bg_png" x="77" y="250" />
+	<e:Image id="close" source="g10_btn_png" x="320" y="1009" />
+</e:Skin>

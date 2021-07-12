@@ -1,0 +1,22 @@
+[
+    {
+        "name": "ftp-160621144030",
+        "host": "114.55.58.252",
+        "user": "root",
+        "password": "rui@NEWCOM",
+        "port": 21,
+        "protocol": "ftp",
+        "remotePath": "../alidata/www/default/game/aqeha/test/",
+        "passive": false,
+        "debug": true,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1466491386462.diff"
+    }
+]

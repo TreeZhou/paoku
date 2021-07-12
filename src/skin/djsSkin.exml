@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="djsSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Rect width="750" height="1334" x="0" y="0" fillAlpha="0.7"/>
+     <e:Image id="quan" source="g2_count_img_png" x="264" y="492" alpha="0"/>
+     <e:Image id="san" source="g2_count3_png" x="350" y="561" alpha="0"/>
+     <e:Image id="er" source="g2_count2_png" x="351" y="561" alpha="0"/>
+     <e:Image id="yi" source="g2_count1_png" x="352" y="561" alpha="0"/>
+     <e:Image id="sgo" source="g2_count_go_png" x="314" y="559" alpha="0"/>
+</e:Skin>

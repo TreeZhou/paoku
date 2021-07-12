@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameoverSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+        <e:Image id="beiguang" source="g3_img1_png" x="423" y="294" anchorOffsetX="283" anchorOffsetY="252" />
+        <e:Image source="g3_bg_png" x="77" y="117" />
+        <e:Image id="rankb" source="g3_btn1_png" x="44" y="1020" />
+        <e:Image id="shareb" source="g3_btn2_png" x="378" y="1019" />
+        <e:Image id="btn1" source="g3_btn3_png" x="184" y="498" />
+        <e:Image id="btn2" source="g3_btn4_png" x="184" y="639" />
+        <e:Image id="btn3" source="g3_btn5_png" x="185" y="786" />
+        <e:Image id="shouzhi" source="g3_img2_png" x="456" y="575" />
+        <e:Label id="chengji" text="Label" x="318.4" y="377.48" anchorOffsetY="0" height="60.31" anchorOffsetX="0"
+                 width="164.91" verticalAlign="middle" textAlign="center" bold="true" fontFamily="Microsoft YaHei"
+                 stroke="2" size="32" />
+        <e:Group id="group" width="750" x="0" y="0" height="1334" visible="false">
+                <e:Rect id="dbtn" width="750" height="1334" x="0" y="0" fillAlpha="0.7" />
+                <e:Image id="dbtn1" source="g5_img_png" x="137" y="94" />
+        </e:Group>
+</e:Skin>

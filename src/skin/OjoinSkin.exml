@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OjoinSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+     <e:Image source="g9_bg_jpg_jpg" x="0" y="0"/>
+     <e:Image id="rule" source="g9_btn3_png" x="37" y="179"/>
+     <e:Image id="btn" source="g9_btn2_png" x="209" y="1081"/>
+     <e:Image id="dianbtn" source="g9_btn1_png" x="209" y="941"/>
+</e:Skin>

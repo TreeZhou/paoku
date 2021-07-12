@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InfosSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+	     <e:Image source="g8_bg_jpg_jpg" x="0" y="0"/>
+     <e:Image source="g8_btn1_png" x="208" y="1020"/>
+     <e:Image id="close" x="208" y="1020" source="g8_btn1_png"/>
+	<e:Label id="namelabel" text="" x="318" y="490" anchorOffsetY="0" height="34" anchorOffsetX="0" width="260" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:Label id="iphonelabel" text="" x="320" y="622" anchorOffsetY="0" height="34" anchorOffsetX="0" width="260" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:Label id="addlabel" text="" x="320" y="754" anchorOffsetY="0" height="34" anchorOffsetX="0" width="260" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0x000000" maxChars="100" textAlign="center"/>
+	<e:EditableText id="yixie" width="262" height="34" text="" x="318" y="490" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:EditableText id="erxie" width="262" height="34" text="" x="318" y="622" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x000000"/>        
+	<e:EditableText id="sanxie" width="260" height="34" text="" x="320" y="754" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+</e:Skin>

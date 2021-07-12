@@ -1,0 +1,44 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.1.0",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "experimental"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "promise",
+			"path": "./promise"
+		},{
+			"name":"md5",
+			"path":"./third/md5"
+		},{
+			"name":"neoges_lib",
+			"path":"./third/neoges_lib"
+		},{
+			"name":"ur",
+			"path":"./third/ur"
+		}
+	]
+}
